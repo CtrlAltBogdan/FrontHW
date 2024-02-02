@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Ubuntu;
+    background-image: url(../img/index/Sprinkle.svg);
+    text-align: center;
+}
+
+li {
+    list-style-type: none; 
+    margin-top: 10px;
+}
+
+.header-logo {
+    background-color: #99b4d183;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.link-hw > ul > li > a {
+    color: #62b2fd;
+    background-color: #f0f8ff;
+    font-size: 20px;
+}
+
+.link-hw a:hover {
+    color: #3c77af;
+}
+

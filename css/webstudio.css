@@ -1,0 +1,94 @@
+:root {
+    --brand__color: #2196F3;
+    --text__color : #757575;
+    --title__color: #212121;
+    --color__background: #2F303A;
+    --color__black: #000000;
+    --color__white: #ffffff;
+    --color__adress: #FFFFFF99;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo__web {
+    color: var(--brand__color);
+}
+
+.logo__studio {
+    color: var(--color__black);
+}
+
+.header__studio {
+    color: var(--brand__color);
+}
+
+.header__portfolio {
+    color: var(--title__color);
+}
+
+.header__contact {
+    color: var(--title__color);
+}
+
+.header__mail {
+    color: var(--brand__color);
+}
+
+.header__phone {
+    color: var(--text__color);
+}
+
+.section__background {
+    background-color: var(--color__background);
+}
+
+.section__h1 {
+    color: var(--color__white);
+}
+
+.section__button {
+    color: var(--color__white);
+    background-color: var(--brand__color);
+}
+
+ul.section__text li p {
+    color: var(--text__color);
+}
+
+ul.section__text li h3 {
+    color: var(--title__color);
+}
+
+.section__who {
+    color: var(--title__color);
+}
+
+ul.section__team li p {
+    color: var(--title__color);
+}
+
+ul.section__team li h3 {
+    color: var(--text__color);
+}
+
+.footer__background {
+    background-color: var(--color__background);
+}
+
+.footer__logo__web {
+    color: var(--brand__color);
+}
+
+.footer__logo__studio {
+    color: var(--color__white);
+}
+
+.footer__addres {
+    color: var(--color__white);
+}
+
+.footer__mail, .footer__number {
+    color: var(--color__adress);
+}
