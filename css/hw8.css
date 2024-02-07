@@ -1,5 +1,12 @@
-.text-box h3 {
-    color: pink; 
+body {
+    background-color: #fffddd;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.text-box h3:first-of-type {
+    color: pink;
 }
 
 #greycol {
@@ -10,10 +17,144 @@
     color: red;
 }
 
-.text-box p {
+.text-box > p:nth-of-type(3) {
     color: green;
 }
 
 .text-box .yellow {
     color: yellow;
+}
+
+/* таблица */
+
+caption {
+    background-color: #ffd700;
+    font-size: 23px;
+    font-family: Arial;
+}
+
+caption:hover {
+    background-color: #3a3aff;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 3px solid;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+
+/* дни недели */
+
+
+th:nth-child(1) {
+    background-color: #FFAA00;
+    border-color: #ff0000;
+}
+
+th:nth-child(1):hover {
+    background-color: #1240AB;
+}
+
+th:nth-child(2) {
+    background-color: #06a791;
+    border-color: #0000ff;
+}
+
+th:nth-child(2):hover {
+    background-color: #F7FE00;
+}
+
+th:nth-child(3) {
+    background-color: #FFAA00;
+    border-color: #008000;
+}
+
+th:nth-child(3):hover {
+    background-color: #1240AB;
+}
+
+th:nth-child(4) {
+    background-color: #06a791;
+    border-color: #800080;
+}
+
+th:nth-child(4):hover {
+    background-color: #F7FE00;
+}
+
+th:nth-child(5) {
+    background-color: #FFAA00;
+    border-color: #ffa500;
+}
+
+th:nth-child(5):hover {
+    background-color: #1240AB;
+}
+
+
+/* уроки */
+
+
+td:nth-child(1) {
+    border-color: #ff0000;
+    background-color: #00CC00;
+    
+}
+
+td:nth-child(1):hover {
+    background-color: #ff33ff;
+}
+
+
+td:nth-child(2) {
+    border-color: #0000ff;
+    background-color: #AA00A2;
+    
+}
+
+td:nth-child(2):hover {
+    background-color: #C9F600;
+}
+
+
+td:nth-child(3) {
+    border-color: #008000;
+    background-color: #00CC00;
+    
+}
+
+td:nth-child(3):hover {
+    background-color: #ff33ff;
+}
+
+
+td:nth-child(4) {
+    border-color: #800080;
+    background-color: #AA00A2;
+    
+}
+
+td:nth-child(4):hover {
+    background-color: #C9F600;
+}
+
+
+td:nth-child(5) {
+    border-color: #ffa500;
+    background-color: #00CC00;
+    
+}
+
+td:nth-child(5):hover {
+    background-color: #ff33ff;
 }
