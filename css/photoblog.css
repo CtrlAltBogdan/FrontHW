@@ -18,6 +18,9 @@ body {
     font-family: "Playfair Display";
 }
 
+.header-link a {
+    color: var(--color-hover);
+}
 body > header a {
     color: var(--color-link);
     font-size: 14px;
