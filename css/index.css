@@ -49,8 +49,11 @@ header {
 }
 
 
+
+
 .footer-link li a {
     transition: margin 0.4s ease-in-out;
+    padding: 10px;
 }
 
 .footer-link li a:hover {

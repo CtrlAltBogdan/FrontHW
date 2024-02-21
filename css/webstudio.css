@@ -140,3 +140,16 @@ header ul li {
 .section__team__color {
     background-color: var(--color__background2);
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px solid red;
+}
+
+.header {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    background-color: yellow;
+}
