@@ -9,12 +9,8 @@
     --color__background2: #F5F4FA;;
 }
 
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
+body {
+    font-family: Roboto;
 }
 
 .logo-option {
@@ -53,11 +49,11 @@ a {
 
 .section__background {
     background-color: var(--color__background);
+
 }
 
 .section__h1 {
     color: var(--color__white);
-    font-family: Roboto;
     font-size: 44px;
     font-weight: 900;
 }
@@ -65,42 +61,36 @@ a {
 .section__button {
     color: var(--color__white);
     background-color: var(--brand__color);
-    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
 }
 
 ul.section__text li p {
     color: var(--text__color);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
 }
 
 ul.section__text li h3 {
     color: var(--title__color);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
 }
 
 .section__who {
     color: var(--title__color);
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
 }
 
 ul.section__team li p {
     color: var(--title__color);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
 }
 
 ul.section__team li h3 {
     color: var(--text__color);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
 }
@@ -119,20 +109,17 @@ ul.section__team li h3 {
 
 .footer__addres {
     color: var(--color__white);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
 }
 
 .footer__mail, .footer__number {
     color: var(--color__adress);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
 }
 
 header ul li {
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
 }
@@ -145,11 +132,9 @@ header ul li {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    border: 1px solid red;
 }
 
 .header {
-    margin-top: 24px;
-    margin-bottom: 25px;
-    background-color: yellow;
+    padding: 24px;
+    padding-bottom: 25px;
 }

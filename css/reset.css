@@ -23,6 +23,10 @@ ol, ul {
     list-style: none;
 }
 
+li {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -31,4 +35,8 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+address {
+    font-style: normal;
 }
