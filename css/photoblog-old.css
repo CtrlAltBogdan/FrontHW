@@ -1,0 +1,84 @@
+:root {
+    --color-main: #626262;
+    --color-link: #7D7D7D;
+    --color-card-link: #B4AD9E;
+    --color-hover: #03A9F4;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: var(--color-main);
+    font-family: "Playfair Display";
+    
+}
+
+.header-link a {
+    color: var(--color-hover);
+}
+body > header a {
+    color: var(--color-link);
+    font-size: 14px;
+}
+
+a:hover {
+    color: var(--color-hover);
+}
+
+body > main > section a {
+    color: var(--color-card-link);
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+body > main > section h3 {
+    font-size: 30px;
+}
+
+body > main > section p {
+    font-size: 14px;
+}
+
+
+button {
+    font-size: 14px;
+    font-family: "Playfair Display";
+}
+
+.container {
+    width: 905px;
+    margin: 0 auto;
+    outline: 3px solid red;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 20px 48px 21px 49px;
+    font-size: 14px;
+    background-color: white;
+}
+
+header ul {
+    margin: 71px auto 92px auto;
+    display: flex;
+    flex-direction: row;
+    flex-direction: nowrap;
+    justify-content: space-between;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column wrap;
+    
+}

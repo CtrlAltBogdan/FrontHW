@@ -1,0 +1,56 @@
+@font-face {
+  font-family: sf;
+  src: url(../fonts/sf/SFProText-Medium.ttf);
+}
+
+body {
+  background-color: pink;
+  font-family: sf;
+  font-size: 25px;
+}
+
+a.logo {
+  color: green;
+}
+
+a.logo:hover {
+  color: black;
+}
+
+.nav_menu a:hover {
+  color: black;
+  background-color: #beffff;
+}
+
+.nav_menu {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+  border: 3px solid red;
+  padding: 10px;
+
+}
+
+header {
+  display: flex;
+  outline: 3px solid white;
+  width: 1024px;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 35px 15px;
+  justify-content: space-between;
+}
+
+button {
+  background-color: blue;
+  color:white ;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #00008b;
+}

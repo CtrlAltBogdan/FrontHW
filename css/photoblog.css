@@ -5,48 +5,14 @@
     --color-hover: #03A9F4;
 }
 
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 body {
     color: var(--color-main);
     font-family: "Playfair Display";
+    
 }
 
-.header-link a {
-    color: var(--color-hover);
-}
-body > header a {
-    color: var(--color-link);
-    font-size: 14px;
-}
-
-a:hover {
-    color: var(--color-hover);
-}
-
-body > main > section a {
-    color: var(--color-card-link);
-    font-family: "Ubuntu";
-    font-size: 14px;
-    font-weight: 300;
-}
-
-body > main > section h3 {
-    font-size: 30px;
-}
-
-body > main > section p {
-    font-size: 14px;
-}
-
-
-button {
-    font-size: 14px;
-    font-family: "Playfair Display";
+.container {
+    width: 905px;
+    margin: 0 auto;
+    outline: 3px solid red;
 }

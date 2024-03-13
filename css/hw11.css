@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #fff;
+  background-color: #2F303A;
+}
+
+.box-div {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+}
+
+.box-text {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+  background-color: #008000;
+
+  outline: 2px solid red;
+
+  width: 350px;
+  height: 220px;
+  padding: 15px 10px 20px 10px;
+  margin: 0px 0px 30px;
+}
