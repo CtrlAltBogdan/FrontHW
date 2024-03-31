@@ -49,13 +49,18 @@ body {
 
 .section-background {
     background-color: var(--color-background);
-
+    padding: 250px 0px 250px;
+    background-image: url(../img/webstudio/Img-h1.jpg);
+    background-size: contain;
 }
 
 .section-h1 {
     color: var(--color-white);
     font-size: 44px;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-button {
@@ -63,6 +68,12 @@ body {
     background-color: var(--brand-color);
     font-weight: 700;
     font-size: 16px;
+
+    
+}
+
+.section-text {
+    display: flex;
 }
 
 .section-text p {
@@ -77,10 +88,19 @@ body {
     font-weight: 700;
 }
 
+.main-section-who ul {
+    display: flex;
+}
+
 .section-who {
     color: var(--title-color);
     font-size: 36px;
     font-weight: 700;
+    
+}
+
+.section-team {
+    display: flex;
 }
 
 .section-team p {
@@ -132,9 +152,20 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+
+    outline: 3px solid red;
 }
 
 .header {
     padding: 24px;
     padding-bottom: 25px;
+}
+
+.header-nav, .header-ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-addres {
+    display: flex;
 }
