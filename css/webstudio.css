@@ -8,8 +8,8 @@
     --color-black: #000000;
     --color-white: #ffffff;
     --color-adress: #FFFFFF99;
-    /* --color-background2: #F5F4FA; */
-    --color-background2: #876fff;
+    --color-background2: #F5F4FA;
+    /* --color-background2: #876fff; */
 }
 
 body {
@@ -161,6 +161,7 @@ a:hover {
 }
 
 .section-team-color {
+    background-color: var(--color-background2);
     padding-top: 94px;
 }
 
