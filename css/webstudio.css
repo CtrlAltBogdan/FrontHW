@@ -17,6 +17,14 @@ body {
     font-weight: 500;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 2px solid gold;
+
+}
+
 li {
     display: inline-block;
 }
@@ -44,44 +52,37 @@ a:hover {
     color: var(--brand-color);
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    outline: 3px solid gold;
-}
-
 .header {
     height: 80px;
 }
 
 .logo-option {
     position: absolute;
-    padding: 24px;
+    padding: 20px;
 }
 
 .header-ul {
-    margin-left: 238px;
+    margin-left: 234px;
     position: absolute;
     
 }
 
 .header-ul li {
-    padding-right: 50px;
+    padding-right: 46px;
 }
 
 .header-addres {
-    margin-left: 800px;
+    margin-left: 796px;
 }
 
 .header-addres li {
     display: inline;
-    padding-right: 50px;
+    padding-right: 46px;
 }
 
 .header-ul,
 .header-addres {
-    padding: 32px;
+    padding: 24px;
 }
 
 .section-background {
@@ -195,8 +196,11 @@ a:hover {
     letter-spacing: 0.48px;
 }
 
-.wraper-footer {
+.footer {
     background-color: var(--color-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
 }
 
 .footer-logo-option {
@@ -209,8 +213,14 @@ a:hover {
 
 }
 
-.footer-logo-web {
-    color: var(--brand-color);
+
+
+.footer-logo-studio {
+    
+}
+
+.footer-address {
+    
 }
 
 .footer-logo-studio {
