@@ -15,9 +15,25 @@ body {
   margin-bottom: 20px;
 }
 
+.header img {
+  padding: 16px 152px 17px 3px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 29px;
+  padding-top: 30px;
+  padding-bottom: 33px;
+}
+
+
 .img-logo {
   width: 160px;
   height: 120px;
+}
+
+.menu {
+  display: flex;
 }
 
 .section-1 p {
@@ -68,6 +84,7 @@ body {
 .section-1 {
   background-image: url(../img/nike/bg-2.png);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -180,3 +197,7 @@ line-height: normal;
   
 }
 
+
+.section-1 .img-logo {
+  
+}
