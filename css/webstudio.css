@@ -1,35 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap");
 
 :root {
-    --brand-color: #178ef0;
-    --text-color : #757575;
-    --title-color: #212121;
-    --color-background: #2F303A;
-    --color-black: #000000;
-    --color-white: #ffffff;
-    --color-adress: #FFFFFF99;
-    --color-background2: #F5F4FA;
-    /* --color-background2: #876fff; */
+  --brand-color: #178ef0;
+  --brand-color-2: #2196f3;
+  --text-color: #757575;
+  --title-color: #212121;
+  --color-background: #2f303a;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-adress: #ffffff99;
+  --color-background2: #f5f4fa;
+
+  /* тестовые/временные цвета */
+  --color-test-1: #ffd700;
+  --color-test-2: #876fff;
+  --color-test-3: #ff6347;
 }
 
+/* основа */
 body {
-    font-family: "Roboto";
-    font-weight: 500;
+  font-family: "Roboto";
+  font-weight: 500;
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    outline: 2px solid gold;
-
-}
-
-.menu {
-    display: flex;
+  width: 1200px;
+  margin-inline: auto;
+  padding: 0 15px;
+  outline: 2px solid var(--color-test-1);
 }
 
 .flex {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+/* цвета ссылок */
+a {
+  color: var(--title-color);
+}
+
+a:hover {
+  color: var(--brand-color);
+}
+
+/* header */
+.list-menu {
+  padding: 24px 0px 24px;
+}
+
+.menu li {
+  padding-right: 50px;
+}
+
+.logo {
+  color: var(--brand-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+
+  padding-right: 93px;
+}
+
+.studio-black {
+  color: var(--color-black);
+}
+
+.header-addres {
+  margin-left: auto;
+  li {
+    padding-left: 50px;
   }
+}
+
+/* section #1 - hero */
+.hero {
+  background-image: url(../img/webstudio/Img-h1.jpg);
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: var(--color-white);
+  font-size: 44px;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  width: 696px;
+}
+
+.hero button {
+  border-radius: 4px;
+  background: var(--brand-color-2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 216px;
+  height: 50px;
+
+  color: var(--color-white);
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+
+  margin-top: 30px;
+}
