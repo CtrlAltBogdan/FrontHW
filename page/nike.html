@@ -9,9 +9,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container flex">
+        <a href="#"><img src="../img/nike/logo.png" alt="logo" /></a>
         <ul class="menu">
-          <a href="#"><img src="../img/nike/logo.png" alt="logo"/></a>
           <li><a href="#">Main page</a></li>
           <li><a href="#">Benefits</a></li>
           <li><a href="#">Advantages</a></li>
@@ -20,8 +20,8 @@
           <li><a href="#">Order</a></li>
         </ul>
         <div class="lang">
-          <a href="#">Ua</a>
-          <a href="#">Eng</a>
+          <a class="no-active-lang" href="./index-uk.html">Ua</a>
+          <a class="active-lang" href="#">Eng</a>
         </div>
       </div>
     </header>
@@ -41,45 +41,64 @@
         </div>
       </section>
       <section class="section-2">
-        <div class="container">
+        <div class="container li-container">
           <ul class="text-section-2">
-            <li class="section-2-img-1 section-2-text">Premium Quality</li>
-            <li class="section-2-img-2 section-2-text">Indelible paint</li>
-            <li class="section-2-img-3 section-2-text">Fast shipping</li>
+            <li class="section-2-img-1 section-2-text">
+              <p>Premium Quality</p>
+            </li>
+            <li class="section-2-img-2 section-2-text">
+              <p>Indelible paint</p>
+            </li>
+            <li class="section-2-img-3 section-2-text"><p>Fast shipping</p></li>
           </ul>
         </div>
       </section>
 
       <section class="section-3">
-        <div class="container">
+        <div class="container bg-decoration">
           <h2>Reviews</h2>
-          <ul>
+          <ul class="card">
             <li>
-              <h3>
+              <h3 class="text-card">
                 Sneakers are very comfortable and well painted, nothing has worn
                 off in a year.
               </h3>
-              <h3>25.11</h3>
-              <p class="photo one">John Teylor</p>
-              <h3>With us from 2018</h3>
+              <h3 class="date">25.11</h3>
+              <div class="flex-2">
+                <img class="photo" src="../img/nike/people-1.png" alt="" />
+                <div>
+                  <p class="one name">John Teylor</p>
+                  <h3 class="date-year">With us from 2018</h3>
+                </div>
+              </div>
             </li>
             <li>
-              <h3>
+              <h3 class="text-card">
                 I'm very happy with this color scheme. They match all my
                 clothes.
               </h3>
-              <h3>05.01</h3>
-              <p class="photo two">Elizabeth Garsia</p>
-              <h3>With us from 2020</h3>
+              <h3 class="date">05.01</h3>
+              <div class="flex-2">
+                <img class="photo" src="../img/nike/people-2.png" alt="" />
+                <div>
+                  <p class="two name">Elizabeth Garsia</p>
+                  <h3 class="date-year">With us from 2020</h3>
+                </div>
+              </div>
             </li>
             <li>
-              <h3>
+              <h3 class="text-card">
                 Just right if you need to go to a party. I use them actively,
                 the paint is super.
               </h3>
-              <h3>18.06</h3>
-              <p class="photo three">Tom Maquare</p>
-              <h3>With us from 2019</h3>
+              <h3 class="date">18.06</h3>
+              <div class="flex-2">
+                <img class="photo" src="../img/nike/people-3.png" alt="" />
+                <div>
+                  <p class="three name">Tom Maquare</p>
+                  <h3 class="date-year">With us from 2019</h3>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -87,7 +106,7 @@
       <section class="section-4">
         <div class="container">
           <h3>Order</h3>
-          <form action="" method="">
+          <form class="fomr" action="" method="">
             <input
               type="email"
               name=""
@@ -109,34 +128,36 @@
     </main>
     <footer>
       <div class="container">
-        <ul>
-          <li>Have a question?</li>
-          <li>Have a proposal for cooperation?</li>
-          <li>Advertising questions?</li>
-        </ul>
-
-        <ul>
+        <ul class="footer">
+          <li>
+            <p>Have a question?</p>
+            <p>Have a proposal for cooperation?</p>
+            <p>Advertising questions?</p>
+          </li>
           <li>
             <a href="mailto:ColoRawe_support@gmail.com"
               >ColoRawe_support@gmail.com</a
             >
-          </li>
-          <li>
             <a href="mailto:ColoRawe_Cooperation@gmail.com"
               >ColoRawe_Cooperation@gmail.com</a
             >
-          </li>
-          <li>
             <a href="mailto:ColoRawe_Advertising@gmail.com"
               >ColoRawe_Advertising@gmail.com</a
             >
           </li>
         </ul>
         <div class="line"></div>
-        <p>2022 ColoRawe @All rights reserved</p>
-        <p>United States</p>
-        <img class="img-logo-footer" src="../img/nike/logo.png" alt="logo" />
-        <p class="cir-footer">С&R</p>
+        <div class="flex-3">
+          <div class="copyrite">
+            <p>2022 ColoRawe @All rights reserved</p>
+            <p>United States</p>
+          </div>
+          <div class="copyrite-logo">
+            <img class="img-logo-footer" src="../img/nike/logo.png" alt="logo" />
+            <p class="cir-footer">С&R</p>
+          </div>
+        </div>
+
       </div>
     </footer>
   </body>
