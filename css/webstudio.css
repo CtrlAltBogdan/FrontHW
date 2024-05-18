@@ -107,4 +107,6 @@ a:hover {
   letter-spacing: 0.96px;
 
   margin-top: 30px;
+
+  cursor: pointer;
 }
