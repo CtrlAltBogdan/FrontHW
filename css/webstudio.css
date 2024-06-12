@@ -50,6 +50,10 @@ h2 {
   text-align: center;
 }
 
+.flex-2 {
+  display: flex;
+}
+
 /* цвета ссылок в header */
 .color-link a {
   color: var(--title-color);
@@ -93,6 +97,10 @@ h2 {
   li {
     padding-left: 50px;
   }
+}
+
+.header-studio.active {
+  color: var(--color-active);
 }
 
 /* header icon */
@@ -320,7 +328,8 @@ h2 {
 
 .social-container svg {
   fill: var(--color-svg);
-  background-color: var(--color-test-1);
+
+  /* background-color: var(--color-test-1); */
   
 }
 
@@ -343,4 +352,44 @@ h2 {
   svg {
     fill: var(--color-white);
   }
+}
+
+/* иконки соц сетей в footer */
+
+.social-network {
+  padding-top: 12px;
+}
+
+.social-container-2 {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.social-container-2 svg {
+  fill: var(--color-white);
+
+
+  /* background-color: var(--color-test-1); */
+}
+
+
+.social-container-2 a {
+  margin-right: 10px;
+}
+
+.bg-social {
+  background-color: rgb(68, 69, 78);
+  border-radius: 50%;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+}
+
+.join-footer {
+  color: var(--color-white);
+font-size: 14px;
+letter-spacing: 0.42px;
+text-transform: uppercase;
 }
