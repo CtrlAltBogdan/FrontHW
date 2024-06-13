@@ -24,6 +24,10 @@ body {
   font-weight: 500;
 }
 
+.active-link {
+  color: var(--color-active);
+}
+
 .container {
   width: 1200px;
   margin-inline: auto;
@@ -99,7 +103,7 @@ h2 {
   }
 }
 
-.header-studio.active {
+.color.active {
   color: var(--color-active);
 }
 
